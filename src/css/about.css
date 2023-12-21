@@ -1,8 +1,3 @@
-<<<<<<< Updated upstream
-=======
-<<<<<<< Updated upstream
-=======
->>>>>>> Stashed changes
 .about-section {
   background-color: #0e1823;
   color: #1b414b;
@@ -12,13 +7,7 @@
 .container {
   /* background-color: #0e1823; */
   max-width: 375px;
-  height: 100%;
-<<<<<<< Updated upstream
-  margin-left: auto;
-  margin-right: auto;
-=======
-  margin:0 auto;
->>>>>>> Stashed changes
+  margin: 0 auto;
 }
 .about-container {
   flex-shrink: 0;
@@ -65,16 +54,10 @@
 }
 .about-img {
   border-radius: 24px;
-<<<<<<< Updated upstream
-  width: 100%;
-  position: absolute;
-  top: 380px;
-=======
   margin: 0 auto;
   /* width: 100%;
   position: absolute;
   top: 380px; */
->>>>>>> Stashed changes
 }
 /* ============== TABLET================ */
 @media screen and (min-width: 768px) {
@@ -150,7 +133,3 @@
     max-width: 404px;
   }
 }
-<<<<<<< Updated upstream
-=======
->>>>>>> Stashed changes
->>>>>>> Stashed changes
