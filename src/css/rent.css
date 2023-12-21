@@ -1,0 +1,165 @@
+.rent {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.rent-container {
+    max-width: 375px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 80px;
+}
+
+.rent-title {
+    color: #FBFBFB;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    margin-bottom: 40px;
+}
+
+.rent-form-input {
+    width: 100%;
+    height: 42px;
+    font-size: 12px;
+    color: #fbfbfb66;
+    line-height: 1.17;
+    border-radius: 12px;
+    border: 1px solid #fbfbfb33;
+    outline: transparent;
+    padding-left: 18px;
+    background-color: transparent;
+    margin-bottom: 18px;
+
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.rent-form-input:focus {
+    border-color: #fbfbfb80;
+    color: #FBFBFB;
+}
+
+::placeholder {
+    color: #fbfbfb66;
+}
+
+.rent-form-comment {
+    width: 100%;
+    height: 108px;
+    font-size: 12px;
+    color: #fbfbfb66;
+    line-height: 1.17;
+    border-radius: 12px;
+    border: 1px solid #fbfbfb33;
+    padding: 14px 18px;
+    resize: none;
+    background-color: transparent;
+    outline: transparent;
+    display: block;
+    margin-bottom: 40px;
+
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.rent-form-comment:focus {
+    border-color: #fbfbfb80;
+    color: #FBFBFB;
+}
+
+.rent-form-submit-btn {
+    font-family: "Inter", sans-serif;
+    color: #FBFBFB;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.29;
+    letter-spacing: 0.02em;
+    padding: 14px 44px;
+    background-color: #1B414B;
+    border: none;
+    border-radius: 15px;
+    min-width: 122px;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.rent-form-submit-btn:active {
+    background-color: #FBFBFB;
+    color: #1B414B;
+}
+
+.rent-yacht-img {
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+@media screen and (min-width: 768px) {
+    .rent {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+
+    .rent-container {
+        max-width: 768px;
+        padding-left: 32px;
+        padding-right: 32px;
+        row-gap: 100px;
+    }
+
+    .rent-content-wrapper {
+        max-width: 472px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .rent-title {
+        font-size: 48px;
+        margin-bottom: 50px;
+    }
+
+    .rent-form-input {
+        height: 54px;
+        font-size: 14px;
+        line-height: 1.29;
+    }
+
+    .rent-form-comment {
+        height: 116px;
+        margin-bottom: 50px;
+    }
+
+    .rent-form-submit-btn {
+        min-width: 194px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .rent-container {
+        max-width: 1280px;
+        padding-left: 50px;
+        padding-right: 50px;
+        flex-direction: row-reverse;
+        column-gap: 50px;
+    }
+
+    .rent-content-wrapper {
+        margin-left: 0;
+    }
+    .rent-form-submit-btn:hover,
+    .rent-form-submit-btn:focus {
+        background-color: #FBFBFB;
+        color: #1B414B;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .rent-container {
+        max-width: 1440px;
+    }
+}
