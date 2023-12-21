@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+  padding-top: 16px;
+  padding-bottom: 40px;
+  font-family: 'Inter', sans-serif;
+}
+/* ======== MODAL-NAVIGATION =======*/
+.modal-navigation-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.modal-navigation-item {
+  display: flex;
+  justify-content: center;
+  width: 91px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #1b414b80;
+  color: #fbfbfb;
+  text-align: center;
+  align-items: center;
+  font-size: 9px;
+  font-weight: 400;
+  line-height: 130%; /* 11.7px */
+  text-transform: uppercase;
+}
+.modal-navigation-item:hover {
+  background-color: #1b414b;
+}
+/* ======== END MODAL-NAVIGATION =======*/
+
+/* ======== MODAL-SOCIAL =======*/
+.modal-social-list {
+  display: flex;
+  gap: 8px;
+}
+.modal-social-icon {
+  fill: #fbfbfb;
+}
+.modal-social-item:hover .modal-social-icon {
+  fill: rgba(251, 251, 251, 0.8);
+  /* border: 2px solid red; */
+}
+
+/* ======== END MODAL-SOCIAL =======*/
