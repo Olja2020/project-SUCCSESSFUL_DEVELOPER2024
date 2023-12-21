@@ -1,32 +1,32 @@
 .footer {
     max-width: 320px;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin-left: auto;
     margin-right: auto;
 }
 
-@media screen and (max-width:375px) {
 
-}
 
-@media screen and (min-widht:376px) {
+@media screen and (max-widht:767px) {
 .footer {
-    max-width: 736px;
+    max-width: 375px;
 }
 }
 
 @media screen and (min-widht:768px) {
 .footer {
-        max-width:1248px;
+        max-width:768px;
     }
 }
 
 @media screen and (min-widht:1280px) {
 .footer {
-        max-width: 1408px;
+        max-width: 1280px;
     }
 }
 @media screen and (min-widht:1440px) {
-
+.footer {
+        max-width: 1440px;
+    }
 }
