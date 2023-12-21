@@ -1,6 +1,4 @@
 .hero-section {
-    background-image:
-        url(../img/img_hero_mobile@1x.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -11,14 +9,6 @@
 
 }
 
-@media screen and (min-resolution: 192dpi) and (max-width: 767px),
-screen and (min-resolution: 2dppx) and (max-width: 767px),
-screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
-    .hero-section {
-        background-image:
-            url(../img/img_hero_mobile@2x.jpg);
-    }
-}
 
 .hero-title {
     color: #FBFBFB;
@@ -58,18 +48,35 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
     width: auto;
     height: auto;
     margin: 0 auto;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 
 }
+ .hero-btn:focus {
+     color: #1B414B;
+     background-color: #FBFBFB;
+
+ }
 
 @media screen and (max-width: 767px) {
 
     .hero-section {
         padding: 198px 20px 243px 20px;
         min-width: 280px;
+        background-image:
+                url(../img/img_hero_mobile@1x.jpg);
+
 
     }
-
+    @media screen and (min-resolution: 192dpi) and (max-width: 767px),
+    screen and (min-resolution: 2dppx) and (max-width: 767px),
+    screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
+    .hero-section {
+        background-image:
+            url(../img/img_hero_mobile@2x.jpg);
+    }
+}
     .hero-title {
         font-size: 32px;
         max-width: 336px;
@@ -82,16 +89,15 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
         font-size: 12px;
         margin-bottom: 38px;
 
-
     }
 
     .hero-btn {
         font-size: 14px;
         padding: 14px 32px;
     }
-
+    
 }
-
+/* ===========================================  TABLET HERO ============================================== */
 @media screen and (min-width: 768px) {
 
     .hero-section {
@@ -129,9 +135,17 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
     .hero-btn {
         font-size: 18px;
         padding: 16px 40px;
+        
     }
+    .hero-btn:focus, .hero-btn:hover  {
+        color: #1B414B;
+        background-color: #FBFBFB;
+        
 
+ }
 }
+/* ===========================================  /TABLET HERO ============================================== */
+/* ===========================================  DESKTOP 1280 HERO ============================================== */
 @media screen and (min-width: 1280px) {
 .hero-section {
         background-image:
@@ -161,6 +175,8 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
         letter-spacing: 0;
     }
 }
+/* ===========================================  /DESKTOP 1280 HERO ============================================== */
+/* ===========================================  DESKTOP 1440 HERO ============================================== */
 @media screen and (min-width: 1440px) {
     .hero-section {
             background-image:
@@ -181,3 +197,4 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
         
    
 }
+/* ===========================================  /DESKTOP 1440 HERO ============================================== */
