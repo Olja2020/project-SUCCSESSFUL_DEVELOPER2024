@@ -10,12 +10,12 @@
   margin: 0 auto;
 }
 .about-container {
-  flex-shrink: 0;
+  /* flex-shrink: 0; */
   display: flex;
-  border-radius: 24px;
+  border-radius: 24px 24px 0 0;
   background-color: #fbfbfb;
   max-width: 335px;
-  padding: 40px 20px 335px 20px;
+  padding: 40px 20px;
   flex-direction: column;
   align-items: flex-start;
   gap: 40px;
@@ -59,6 +59,9 @@
   position: absolute;
   top: 380px; */
 }
+.about-container-img{
+  margin-bottom: 80px;
+}
 /* ============== TABLET================ */
 @media screen and (min-width: 768px) {
   .container {
@@ -66,7 +69,7 @@
   }
   .about-container {
     max-width: 704px;
-    padding: 50px 136px 244px 32px;
+    padding: 50px 136px 50px 32px;
     gap: 50px;
   }
   .about-title-section {
@@ -84,6 +87,9 @@
     font-size: 13px;
     line-height: 1.15; /* 14.95px */
   }
+  .about-container-img{
+    margin-bottom: 150px;
+  }
 }
 /* ==================== /TABLET================ */
 /* ================DESKTOP 1280============= */
@@ -95,8 +101,8 @@
     display: flex;
     flex-direction: row;
     max-width: 1180px;
-    height: 675px;
-    padding: 50px 50px 415px 50px;
+    /* height: 675px; */
+    padding: 50px 50px 100px 50px;
     justify-content: center;
     align-items: flex-start;
     gap: 189px;
@@ -115,6 +121,7 @@
     font-size: 13px;
     line-height: 1.15; /* 14.95px */
   }
+  
 }
 /* ================ /DESKTOP 1280============= */
 /* ================DESKTOP 1440============= */
@@ -124,12 +131,13 @@
   }
   .about-container {
     max-width: 1340px;
-    height: 675px;
-    padding-bottom: 438px;
+    /* height: 675px;
+    padding-bottom: 438px; */
     gap: 299px;
-    flex-shrink: 0;
+    /* flex-shrink: 0; */
   }
   .about-article {
     max-width: 404px;
   }
+  
 }
