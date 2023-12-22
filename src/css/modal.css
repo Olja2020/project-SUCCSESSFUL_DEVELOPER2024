@@ -85,7 +85,8 @@
   line-height: 130%; /* 11.7px */
   text-transform: uppercase;
 }
-.modal-navigation-item:active {
+.modal-navigation-item:active,
+.active {
   background-color: #1b414b;
 }
 /* ======== END MODAL-NAVIGATION =======*/
