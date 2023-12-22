@@ -99,13 +99,6 @@
   .about-article {
     max-width: 354px;
   }
-  /* .about-article-title {
-    font-size: 23px;
-  } */
-  /* .about-article-text {
-    font-size: 13px;
-    line-height: 1.15; 
-  } */
 }
 /* ================ /DESKTOP 1280============= */
 /* ================DESKTOP 1440============= */
@@ -113,6 +106,7 @@
   .about-container {
     max-width: 1340px;
     gap: 100px;
+    margin-bottom: 282px;
   }
   .about-container-content{
     gap:299px;
