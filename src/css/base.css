@@ -1,12 +1,3 @@
-/* body { 
-  font-family: 'Inter', sans-serif;
-  background-color: #0e1823;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 0.75;
-  letter-spacing: 0.045em;
-}*/
-
 body {
   font-family: 'Inter', sans-serif;
   font-size: 16px;
@@ -15,13 +6,13 @@ body {
   letter-spacing: 0.045em;
   color: var(--graywhite);
   background-color: var(--darkgrey);
+
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -43,7 +34,6 @@ body {
     max-width: 375px;
   }
 }
-
 @media (min-width: 768px) {
   .container {
     margin: 0 auto;
@@ -52,7 +42,6 @@ body {
     max-width: 768px;
   }
 }
-
 @media (min-width: 1280px) {
   .container {
     margin: 0 auto;
@@ -61,7 +50,6 @@ body {
     max-width: 1280px;
   }
 }
-
 @media (min-width: 1440px) {
   .container {
     margin: 0 auto;
