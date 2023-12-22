@@ -1,49 +1,53 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/modal.css" />
-    <title>Yachted</title>
-  </head>
-  <body>
-    <div class="modal">
-      <section class="modal-search"></section>
-      <section class="modal-navigation-section">
-        <nav class="modal-navigation">
-          <ul class="modal-navigation-list">
-            <li class="modal-navigation-item"><a href="">About</a></li>
-            <li class="modal-navigation-item"><a href="">Yachts</a></li>
-            <li class="modal-navigation-item"><a href="">Reviews</a></li>
-          </ul>
-        </nav>
-      </section>
+<div class="modal is-open">
+  <div class="modal-search">
+    <form
+      action="https://www.google.com/search"
+      method="get"
+      class="modal-search-form"
+    >
+      <input class="modal-search-input" type="text" placeholder="Search" />
+      <button class="modal-search-button" type="submit">
+        <svg class="modal-search-icon" width="16" height="16">
+          <use href="../public/favicon.svg#modal-social-close"></use>
+        </svg>
+      </button>
+    </form>
+  </div>
+  <div class="modal-navigation-section">
+    <nav class="modal-navigation">
+      <ul class="modal-navigation-list">
+        <li class="modal-navigation-item"><a href="./about.html">About</a></li>
+        <li class="modal-navigation-item">
+          <a href="./yachts.html">Yachts</a>
+        </li>
+        <li class="modal-navigation-item">
+          <a href="./reviews.html">Reviews</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
 
-      <section class="modal-social">
-        <ul class="modal-social-list">
-          <li class="modal-social-item">
-            <a href="" class="modal-social-link"
-              ><svg class="modal-social-icon" width="19" height="19">
-                <use href="../public/favicon.svg#modal-social-insta"></use></svg
-            ></a>
-          </li>
-          <li class="modal-social-item">
-            <a href="" class="modal-social-link"
-              ><svg class="modal-social-icon" width="20" height="20">
-                <use
-                  href="../public/favicon.svg#modal-social-youtube"
-                ></use></svg
-            ></a>
-          </li>
-          <li class="modal-social-item">
-            <a href="" class="modal-social-link">
-              <svg class="modal-social-icon" width="20" height="20">
-                <use href="../public/favicon.svg#modal-social-facebook"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
-      </section>
-    </div>
-  </body>
-</html>
+  <div class="modal-social">
+    <ul class="modal-social-list">
+      <li class="modal-social-item">
+        <a href="" class="modal-social-link"
+          ><svg class="modal-social-icon" width="19" height="19">
+            <use href="../public/favicon.svg#modal-social-insta"></use></svg
+        ></a>
+      </li>
+      <li class="modal-social-item">
+        <a href="" class="modal-social-link"
+          ><svg class="modal-social-icon" width="20" height="20">
+            <use href="../public/favicon.svg#modal-social-youtube"></use></svg
+        ></a>
+      </li>
+      <li class="modal-social-item">
+        <a href="" class="modal-social-link">
+          <svg class="modal-social-icon" width="20" height="20">
+            <use href="../public/favicon.svg#modal-social-facebook"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
