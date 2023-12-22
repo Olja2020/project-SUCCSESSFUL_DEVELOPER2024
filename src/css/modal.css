@@ -13,6 +13,8 @@
   height: 100vh;
   padding-top: 16px;
   padding-bottom: 40px;
+  /* padding-left: 20px;
+  padding-right: 20px; */
   font-family: 'Inter', sans-serif;
   background-color: #0e1823;
   transform: translateX(100%);
@@ -25,7 +27,7 @@
 /* ======== MODAL-FORM =======*/
 
 .modal-search-form {
-  width: 100%;
+  width: 100vw;
   height: 42px;
   max-width: 335px;
   background: rgba(251, 251, 251, 1);
@@ -36,8 +38,9 @@
   padding: 7px 20px;
 }
 .modal-search-input {
+  width: 100%;
   background: transparent;
-  flex: 1;
+  /* flex: 1; */
   border: none;
   outline: none;
   color: #1b414b;
