@@ -1,4 +1,9 @@
 /* MOBILE ADVANTAGES STYLES*/
+.container {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
 .advantages-section {
   padding: 40px 0;
 }
@@ -20,21 +25,35 @@
 
 .advantages-benefits-menu {
   counter-reset: item;
-  padding: 80px 20px;
   width: 335px;
+  padding: 80px 20px;
   margin-bottom: 20px;
   font-size: 28px;
   font-weight: 500;
   line-height: 1;
   letter-spacing: -0.05em;
   border-radius: 24px;
-  color: #fbfbfb;
-  background-color: #1b414b;
+  background-color: var(--hacks);
+}
+
+.advantages-benefits-menu-list {
+  position: relative;
 }
 
 .advantages-benefits-menu-list::before {
   content: counter(item, decimal-leading-zero) ' ';
   counter-increment: item;
+}
+
+.advantages-benefits-menu-list::after {
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  top: 50%;
+  transform: translateY(-50%);
+  content: '';
+  border-radius: 18px;
+  background-color: rgba(251, 251, 251, 0.1);
 }
 
 .advantages-benefits-menu-list:not(:last-child) {
@@ -46,7 +65,6 @@
 }
 
 .advantages-benefits-menu-list-text {
-  position: relative;
   margin-top: 36px;
   width: 292px;
   font-size: 12px;
@@ -54,17 +72,6 @@
   line-height: 1.17;
   letter-spacing: -0.02em;
   opacity: 0.8;
-  color: #fbfbfb;
-}
-
-.advantages-benefits-menu-list-text::before {
-  position: absolute;
-  width: 295px;
-  height: 2px;
-  top: -18px;
-  content: '';
-  border-radius: 18px;
-  background: rgba(251, 251, 251, 0.1);
 }
 
 .advantages-section-img {
@@ -86,11 +93,11 @@
   .advantages-benefits-menu {
     display: flex;
     flex-wrap: wrap;
+    width: 704px;
     margin-bottom: 32px;
     column-gap: 32px;
     row-gap: 44px;
     padding: 90px 32px;
-    width: 704px;
     font-size: 32px;
   }
 
@@ -106,15 +113,12 @@
     font-size: 13px;
     line-height: 1.15;
   }
-
-  .advantages-benefits-menu-list-text::before {
-    width: 304px;
-  }
 }
 
 /* DESKTOP 1280 ADVANTAGES STYLES*/
 @media screen and (min-width: 1280px) {
   .advantages-benefits-wrapper {
+    width: 1180px;
     flex-direction: row;
     column-gap: 32px;
     align-items: unset;
@@ -131,14 +135,14 @@
   .advantages-benefits-menu-list {
     width: calc((100% - 44px) / 2);
   }
-
-  .advantages-benefits-menu-list-text::before {
-    width: 280px;
-  }
 }
 
 /* DESKTOP 1440 ADVANTAGES STYLES*/
 @media screen and (min-width: 1440px) {
+  .advantages-benefits-wrapper {
+    width: 1340px;
+  }
+
   .advantages-benefits-menu {
     column-gap: 32px;
     padding: 90px 50px;
@@ -147,9 +151,5 @@
 
   .advantages-benefits-menu-list {
     width: calc((100% - 32px) / 2);
-  }
-
-  .advantages-benefits-menu-list-text::before {
-    width: 318px;
   }
 }
