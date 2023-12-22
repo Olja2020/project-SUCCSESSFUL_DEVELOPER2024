@@ -9,23 +9,21 @@ html {
   width: 100%;
 }
 .header-container {
-  max-width: 375px;
-  margin: 0 auto;
-  padding: 20px 20px 0;
+  padding-top: 20px;
 }
 
 .header-body {
   padding: 7px 20px;
   border-radius: 8px;
-  border: 1px solid #fbfbfb;
-  background-color: #fbfbfb;
+  border: 1px solid var(--graywhite);
+  background-color: var(--graywhite);
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 .header-logo {
-  color: #1b414b;
+  color: var(--hacks);
   font-size: 14px;
   font-weight: 500;
   line-height: normal;
@@ -46,7 +44,7 @@ html {
     border: none;
     padding: 0;
     line-height: 0;
-    stroke: #1b414b;
+    stroke: var(--hacks);
   }
 }
 
@@ -56,8 +54,7 @@ html {
   }
 
   .header-container {
-    max-width: 768px;
-    padding: 32px 32px 0;
+    padding-top: 32px;
   }
 
   .header-body {
@@ -81,8 +78,8 @@ html {
 
   .header-menu-link {
     display: block;
+    text-align: center;
     min-width: 91px;
-    color: #fbfbfb;
     padding: 15px 25px;
     border-radius: 8px;
     background: rgba(27, 65, 75, 0.5);
@@ -103,16 +100,11 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    fill: #1b414b;
+    fill: var(--hacks);
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .header-container {
-    max-width: 1110px;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
   .header-body {
     padding: 4px 30px;
   }
@@ -127,7 +119,7 @@ html {
 
   .header-menu-link:hover,
   .header-menu-link:focus {
-    background: #1b414b;
+    background: var(--hacks);
   }
 
   .header-social-link {
@@ -141,12 +133,6 @@ html {
 }
 
 @media screen and (min-width: 1440px) {
-  .header-container {
-    max-width: 1270px;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-
   .header-logo {
     margin-right: 375px;
   }
