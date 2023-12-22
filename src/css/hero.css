@@ -3,12 +3,15 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     margin: 0 auto;
 
 }
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .hero-title {
     color: #FBFBFB;
     text-align: center;
@@ -48,10 +51,15 @@
     height: auto;
     margin: 0 auto;
     cursor: pointer;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);   
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 
 }
+ .hero-btn:active {
+     color: #1B414B;
+     background-color: #FBFBFB;
 
+ }
 
 @media screen and (max-width: 767px) {
 
@@ -82,18 +90,14 @@
         max-width: 336px;
         font-size: 12px;
         margin-bottom: 38px;
-
+     
     }
 
     .hero-btn {
         font-size: 14px;
         padding: 14px 32px;
     }
-    .hero-btn:active {
-        color: #1B414B;
-        background-color: #FBFBFB;
     
-         }
 }
 
 @media screen and (min-width: 768px) {
@@ -173,7 +177,7 @@
     }
 }
 
-    @media screen and (min-width: 1440px) {
+@media screen and (min-width: 1440px) {
     .hero-section {
             background-image:
                 url(../img/img_hero_desktop_1440@1x.jpg);
