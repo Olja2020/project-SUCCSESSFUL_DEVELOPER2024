@@ -75,10 +75,16 @@
     fill: #FBFBFB;
 }
 
-
 @media screen and (min-widht:768px) {
     .footer-container {
         max-width: 736px;
+        display: flex;
+    }
+    .footer-all {
+        display: block;
+    }
+    .footer-novigetion {
+        display: block;
     }
 
     .footer-media {
