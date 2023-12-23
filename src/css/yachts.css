@@ -3,7 +3,6 @@
   margin: 0 auto;
   padding-top: 40px;
   padding-bottom: 40px;
-  background: var(--dark);
 }
 
 .yachts-section-name {
@@ -139,13 +138,7 @@
 }
 
 @media (min-width: 768px) {
-  .container {
-    margin: 0 auto;
-    padding-left: 32px;
-    padding-right: 32px;
-    max-width: 768px;
-  }
- 
+   
   .yachts-section {
     padding-top: 75px;
     padding-bottom: 75px;
@@ -208,13 +201,7 @@
 }
 
 @media (min-width: 1280px) {
-  .container {
-    margin: 0 auto;
-    padding-left: 50px;
-    padding-right: 50px;
-    max-width: 1280px;
-  }
-
+  
   .yachts-section-name {
     max-width: 714px;
   }
@@ -231,7 +218,7 @@
 }
 
 @media (min-width: 1440px) {
-  .container {
+  .yachts-container {
     max-width: 1340px;
   }
 
