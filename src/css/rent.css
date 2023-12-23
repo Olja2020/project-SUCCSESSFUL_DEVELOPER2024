@@ -3,9 +3,6 @@
     padding-bottom: 40px;
 }
 .rent-container {
-    max-width: 375px;
-    padding-left: 20px;
-    padding-right: 20px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -14,7 +11,6 @@
 }
 
 .rent-title {
-    color: #FBFBFB;
     font-size: 28px;
     font-weight: 500;
     line-height: 1;
@@ -26,10 +22,10 @@
     width: 100%;
     height: 42px;
     font-size: 12px;
-    color: #fbfbfb66;
+    color: var(--graydark);
     line-height: 1.17;
     border-radius: 12px;
-    border: 1px solid #fbfbfb33;
+    border: 1px solid rgba(251, 251, 251, 0.2);
     outline: transparent;
     padding-left: 18px;
     background-color: transparent;
@@ -40,19 +36,19 @@
 }
 
 .rent-form-input:focus {
-    border-color: #fbfbfb80;
-    color: #FBFBFB;
+    border-color: rgba(250, 250, 250, 0.502);
+    color: var(--graywhite);
 }
 
 ::placeholder {
-    color: #fbfbfb66;
+    color: var(--graydark);
 }
 
 .rent-form-comment {
     width: 100%;
     height: 108px;
     font-size: 12px;
-    color: #fbfbfb66;
+    color: var(--graydark);
     line-height: 1.17;
     border-radius: 12px;
     border: 1px solid #fbfbfb33;
@@ -68,7 +64,7 @@
 }
 
 .rent-form-comment:focus {
-    border-color: #fbfbfb80;
+    border-color: rgba(251, 251, 251, 0.502);
     color: #FBFBFB;
 }
 
