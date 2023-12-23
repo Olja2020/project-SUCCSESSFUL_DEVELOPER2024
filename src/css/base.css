@@ -36,7 +36,6 @@ body {
 }
 @media (min-width: 768px) {
   .container {
-    margin: 0 auto;
     padding-left: 32px;
     padding-right: 32px;
     max-width: 768px;
@@ -52,9 +51,6 @@ body {
 }
 @media (min-width: 1440px) {
   .container {
-    margin: 0 auto;
-    padding-left: 100px;
-    padding-right: 100px;
     max-width: 1440px;
   }
 }
