@@ -9,8 +9,8 @@ footer {
   color: var(--graywhite);
   text-align: center;
   font-size: 18px;
-  line-height: 100%;
-  letter-spacing: -0.02rem;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
   padding: 40px 38px 82px 38px;
 }
 
@@ -20,8 +20,8 @@ footer {
   color: var(--graydark);
   text-align: center;
   font-size: 12px;
-  line-height: 14px;
-  letter-spacing: 0.03rem;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   padding-left: 54px;
   padding-bottom: 20px;
 }
