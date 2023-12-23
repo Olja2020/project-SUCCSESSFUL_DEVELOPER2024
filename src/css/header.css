@@ -100,7 +100,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .header-container {
+  .header-container.container {
     padding-left: 100px;
     padding-right: 100px;
   }
