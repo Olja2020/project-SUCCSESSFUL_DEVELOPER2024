@@ -43,7 +43,7 @@
   color: var(--hacks);
   font-size: 14px;
   font-weight: 500;
-  letter-spacing: -0.42px;
+  letter-spacing: -0.02em; /*-0.42px*/
 }
 .modal-search-input a {
   cursor: pointer;
