@@ -45,7 +45,9 @@
   font-weight: 500;
   letter-spacing: -0.42px;
 }
-
+.modal-search-input a {
+  cursor: pointer;
+}
 .modal-search-button {
   border: none;
   background: transparent;
