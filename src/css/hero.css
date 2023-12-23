@@ -13,10 +13,8 @@
 }
 
 .hero-title {
-    color: #FBFBFB;
-    text-align: center;
-    font-family: Inter;
-    font-style: normal;
+    color: var(#FBFBFB);
+    text-align: center; 
     font-weight: 500;
     line-height: 1em;
     letter-spacing: -0.02em;
@@ -25,10 +23,7 @@
 }
 
 .hero-prg {
-    color: rgba(251, 251, 251, 0.70);
-    text-align: center;
-    font-family: Inter;
-    font-style: normal;
+    color: rgba(251, 251, 251, 0.70);  
     font-weight: 300;
     line-height: 1.17em;
     margin-left: auto;
@@ -38,14 +33,12 @@
 }
 
 .hero-btn {
-    color: #FBFBFB;
-    font-family: Inter;
-    font-style: normal;
+    color: var(#FBFBFB);
     font-weight: 500;
     line-height: 1.29em;
     letter-spacing: -0.02;
     border-radius: 15px;
-    background-color: #1B414B;
+    background-color: var(#1B414B);
     text-align: center;
     width: auto;
     height: auto;
@@ -56,8 +49,8 @@
 
 }
  .hero-btn:active {
-     color: #1B414B;
-     background-color: #FBFBFB;
+     color: var(#1B414B);
+     background-color: var(#FBFBFB);
 
  }
 
@@ -140,8 +133,8 @@
         
     }
     .hero-btn:focus, .hero-btn:hover  {
-        color: #1B414B;
-        background-color: #FBFBFB;
+        color: var(#1B414B);
+        background-color:var(#FBFBFB);
         
 
  }
