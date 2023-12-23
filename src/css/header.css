@@ -82,7 +82,7 @@ html {
     min-width: 91px;
     padding: 15px 25px;
     border-radius: 8px;
-    background: rgba(27, 65, 75, 0.5);
+    background: var(--transp);
     font-size: 9px;
     line-height: 1.3;
     text-transform: uppercase;
@@ -132,7 +132,7 @@ html {
 
   .header-social-link:hover,
   .header-social-link:focus {
-    fill: #062730;
+    fill: var(--blyegray);
   }
 }
 
