@@ -25,10 +25,11 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
+.container {
+  margin: 0 auto;
+}
 @media (max-width: 767px) {
   .container {
-    margin: 0 auto;
     padding-left: 20px;
     padding-right: 20px;
     max-width: 375px;
@@ -43,7 +44,6 @@ body {
 }
 @media (min-width: 1280px) {
   .container {
-    margin: 0 auto;
     padding-left: 100px;
     padding-right: 100px;
     max-width: 1280px;
