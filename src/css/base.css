@@ -8,7 +8,7 @@ body {
   line-height: 0.75;
   letter-spacing: 0.045em;
   color: var(--graywhite);
-  background-color: var(--darkgrey);
+  background-color: var(--dark);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
