@@ -48,7 +48,7 @@
   transform: translateY(-50%);
   content: '';
   border-radius: 18px;
-  background: var(--gray);
+  background-color: var(--gray);
 }
 
 .advantages-benefits-menu-list:not(:last-child) {
