@@ -13,7 +13,7 @@
 }
 
 .hero-title {
-    color: var(#FBFBFB);
+    color: var(--graywhite);
     text-align: center; 
     font-weight: 500;
     line-height: 1em;
@@ -29,16 +29,17 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;
+    text-align: center;
 
 }
 
 .hero-btn {
-    color: var(#FBFBFB);
+    color: var(--graywhite);
     font-weight: 500;
     line-height: 1.29em;
     letter-spacing: -0.02;
     border-radius: 15px;
-    background-color: var(#1B414B);
+    background-color: var(--hacks);
     text-align: center;
     width: auto;
     height: auto;
@@ -49,15 +50,15 @@
 
 }
  .hero-btn:active {
-     color: var(#1B414B);
-     background-color: var(#FBFBFB);
+     color: var(--hacks);
+     background-color: var(--graywhite);
 
  }
 
 @media screen and (max-width: 767px) {
 
     .hero-section {
-        padding: 198px 20px 243px 20px;
+        padding: 198px 20px 302px 20px;
         min-width: 280px;
         background-image:
                 url(./img/img_hero_mobile@1x.jpg);
@@ -98,7 +99,7 @@
     .hero-section {
         background-image:
             url(./img/img_hero_tablet@1x.jpg);
-            padding: 220px 32px 232px 32px;
+            padding: 220px 32px 282px 32px;
             
 
     }
@@ -109,6 +110,7 @@
         .hero-section {
             background-image:
                 url(./img/img_hero_tablet@2x.jpg);
+                
         }
     }
 
@@ -133,8 +135,8 @@
         
     }
     .hero-btn:focus, .hero-btn:hover  {
-        color: var(#1B414B);
-        background-color:var(#FBFBFB);
+        color: var(--hacks);
+        background-color:var(--graywhite);
         
 
  }
@@ -144,7 +146,7 @@
 .hero-section {
         background-image:
             url(./img/img_hero_desktop_1280@1x.jpg);
-        padding: 155px 140px 180px 140px;
+        padding: 155px 140px 215px 140px;
 
 
     }
@@ -167,6 +169,7 @@
     }
     .hero-prg {
         letter-spacing: 0;
+        
     }
 }
 
@@ -174,7 +177,7 @@
     .hero-section {
             background-image:
                 url(./img/img_hero_desktop_1440@1x.jpg);
-            padding: 180px 220px 156px 220px;
+            padding: 180px 220px 215px 220px;
     
     
         }
