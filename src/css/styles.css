@@ -9,7 +9,6 @@
 @import url('./variable.css');
 @import url('./vite-promo.css');
 @import url('./header.css');
-@import url('./modal.css');
 @import url('./hero.css');
 @import url('./about.css');
 @import url('./yachts.css');
@@ -18,3 +17,4 @@
 @import url('./reviews.css');
 @import url('./footer-first.css');
 @import url('./footer-second.css');
+@import url('./modal.css');
