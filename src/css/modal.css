@@ -11,8 +11,8 @@
   height: 100vh;
   padding-top: 16px;
   padding-bottom: 40px;
-  /* padding-left: 20px;
-  padding-right: 20px; */
+  padding-left: 20px;
+  padding-right: 20px;
   background-color: var(--dark);
   transform: translateX(100%);
   transition: transform 250ms ease-in-out;
