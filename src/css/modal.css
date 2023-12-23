@@ -45,9 +45,6 @@
   font-weight: 500;
   letter-spacing: -0.42px;
 }
-::placeholder {
-  color: var(--transp);
-}
 
 .modal-search-button {
   border: none;
