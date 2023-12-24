@@ -52,10 +52,6 @@ footer {
   .footer-text {
     padding: 96px 268px 99px 269px;
   }
-
-  .footer-microtext {
-    padding-left: 466px;
-  }
 }
 
 @media screen and (min-width: 1440px) {
