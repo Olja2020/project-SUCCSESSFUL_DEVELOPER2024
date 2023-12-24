@@ -6,14 +6,13 @@
   --grayhacks: #1b414b80;
   --transp: rgba(27, 65, 75, 0.5);
   --litegray: rgba(4, 3, 6, 0.4);
-  --blyegray: #062730;   
-  --whiteone: rgba(251, 251, 251, 1);
+  --blyegray: #062730;
   --whiteight: rgba(251, 251, 251, 0.8);
   --whiteseven: rgba(251, 251, 251, 0.7);
-  --whitefive: rgba(251, 251, 251, 0.50)
+  --whitefive: rgba(251, 251, 251, 0.5);
   --whitefour: rgba(251, 251, 251, 0.4);
-  --whitethree: rgba(251, 251, 251, 0.35)
+  --whitethree: rgba(251, 251, 251, 0.35);
   --graygray: rgba(251, 251, 251, 0.3);
-  --whitetwo :rgba(251, 251, 251, 0.20);  
+  --whitetwo: rgba(251, 251, 251, 0.2);
   --gray: rgba(251, 251, 251, 0.1);
 }
