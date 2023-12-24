@@ -47,7 +47,7 @@
   text-align: center;
   min-width: 66px;
   color: var(--graywhite);
-  padding: 12px 15px;
+  padding: 12px 12px;
   border-radius: 8px;
   background: var(--graygray);
   font-size: 9px;
@@ -58,7 +58,7 @@
 }
 
 .footer-novigetion-link.twelve {
-  padding: 12px 12px;
+  padding: 12px 15px;
 }
 
 .footer-novigetion-link:hover,
