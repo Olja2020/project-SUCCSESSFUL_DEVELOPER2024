@@ -215,6 +215,24 @@
     width: calc((100% - 46px) / 3);
     gap: 23px;
   }
+  
+  .yachts-list {
+  transition: all 0.125s ease;
+ }
+  
+ .yachts-list:hover {
+  transform: scale(0.9);
+ }
+  
+ .yachts-list img {
+  transition: all 0.125s ease;
+ }
+  
+ .yachts-list:hover img {
+  transform: scale(1.25);
+  border-radius: 24px;
+  overflow: hidden;
+ }
 }
 
 @media (min-width: 1440px) {
