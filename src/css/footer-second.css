@@ -22,7 +22,7 @@ footer {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  padding-left: 54px;
+  justify-content: center;
   padding-bottom: 20px;
 }
 
@@ -40,7 +40,6 @@ footer {
   .footer-microtext {
     font-size: 14px;
     gap: 32px;
-    padding-left: 219px;
   }
 }
 
@@ -63,8 +62,5 @@ footer {
   .footer-text {
     padding: 96px 346px 99px 345px;
   }
+} 
 
-  .footer-microtext {
-    padding-left: 546px;
-  }
-}
