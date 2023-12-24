@@ -115,5 +115,7 @@
   fill: var(--graywhite);
   opacity: 0.8;
 }
-
+.is-scroll-disabled {
+  overflow: hidden;
+}
 /* ======== END MODAL-SOCIAL =======*/
