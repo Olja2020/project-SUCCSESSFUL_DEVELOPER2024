@@ -27,7 +27,7 @@
   width: 100vw;
   height: 42px;
   max-width: 335px;
-  background: rgba(251, 251, 251, 1);
+  background: var(--whiteone);
   display: flex;
   align-items: center;
   border-radius: 8px;
@@ -76,7 +76,7 @@
   width: 91px;
   height: 40px;
   border-radius: 8px;
-  background-color: #1b414b80;
+  background-color: var(--grayhacks);
   color: var(--graywhite);
   text-align: center;
   align-items: center;
@@ -100,7 +100,7 @@
   fill: var(--graywhite);
 }
 .modal-social-item:active .modal-social-icon {
-  fill: rgba(251, 251, 251, 0.8);
+  fill: var(--whiteight);
 }
 
 /* ======== END MODAL-SOCIAL =======*/
