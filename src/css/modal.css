@@ -3,12 +3,8 @@
   top: 0;
   left: 0;
   z-index: 999;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   padding-top: 16px;
   padding-bottom: 40px;
   padding-left: 20px;
@@ -17,7 +13,13 @@
   transform: translateX(100%);
   transition: transform 250ms ease-in-out;
 }
-
+.modal-search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
 .modal.is-open {
   transform: translateX(0);
 }
@@ -33,8 +35,12 @@
   border-radius: 8px;
   border: 1px solid var(--graywhite);
   padding: 7px 20px;
+  /* margin-bottom: 201px; */
 }
 .modal-search-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
   background: transparent;
   /* flex: 1; */
@@ -69,6 +75,8 @@
   display: flex;
   flex-direction: column;
   gap: 4px;
+  margin-bottom: 160px;
+  /* margin-bottom: 201px; */
 }
 .modal-navigation-item {
   display: flex;
@@ -84,6 +92,7 @@
   font-weight: 400;
   line-height: 1.3; /* 11.7px */
   text-transform: uppercase;
+  cursor: pointer;
 }
 .modal-navigation-item:active,
 .active {
@@ -92,6 +101,9 @@
 /* ======== END MODAL-NAVIGATION =======*/
 
 /* ======== MODAL-SOCIAL =======*/
+.modal-social {
+  bottom: 40px;
+}
 .modal-social-list {
   display: flex;
   gap: 8px;
