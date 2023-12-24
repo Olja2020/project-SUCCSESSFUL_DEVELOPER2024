@@ -3,11 +3,17 @@
   --dark: #0e1823;
   --hacks: #1b414b;
   --graywhite: #fbfbfb;
-  --gray: rgba(251, 251, 251, 0.1);
+  --grayhacks: #1b414b80;
   --transp: rgba(27, 65, 75, 0.5);
-  --darkwhite: rgba(251, 251, 251, 0.7);
-  --graydark: rgba(251, 251, 251, 0.4);
   --litegray: rgba(4, 3, 6, 0.4);
-  --blyegray: #062730;
+  --blyegray: #062730;   
+  --whiteone: rgba(251, 251, 251, 1);
+  --whiteight: rgba(251, 251, 251, 0.8);
+  --whiteseven: rgba(251, 251, 251, 0.7);
+  --whitefive: rgba(251, 251, 251, 0.50)
+  --whitefour: rgba(251, 251, 251, 0.4);
+  --whitethree: rgba(251, 251, 251, 0.35)
   --graygray: rgba(251, 251, 251, 0.3);
+  --whitetwo:rgba(251, 251, 251, 0.20);  
+  --gray: rgba(251, 251, 251, 0.1);
 }
