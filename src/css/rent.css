@@ -36,12 +36,12 @@
 }
 
 .rent-form-input:focus {
-    border-color: rgba(251, 251, 251, 0.502);
+    border-color: var(--whitefive);
     color: var(--graywhite);
 }
 
 ::placeholder {
-    color: var(--graydark);
+    color: var(--whitefour);
 }
 
 .rent-form-comment {
@@ -64,7 +64,7 @@
 }
 
 .rent-form-comment:focus {
-    border-color: rgba(251, 251, 251, 0.502);
+    border-color: var(--whitefive);
     color: var(--graywhite);
 }
 
