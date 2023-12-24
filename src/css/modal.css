@@ -26,7 +26,7 @@
 /* ======== MODAL-FORM =======*/
 
 .modal-search-form {
-  width: 100vw;
+  width: 100%;
   height: 42px;
   max-width: 335px;
   background: var(--graywhite);
@@ -115,5 +115,8 @@
   fill: var(--graywhite);
   opacity: 0.8;
 }
-
+.is-scroll-disabled {
+  overflow: hidden;
+}
+/* ======== END MODAL-SOCIAL =======*/
 /* ======== END MODAL-SOCIAL =======*/
