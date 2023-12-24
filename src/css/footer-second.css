@@ -17,7 +17,7 @@ footer {
 .footer-microtext {
   display: flex;
   gap: 20px;
-  color: var(--graydark);
+  color: var(--whitefour);
   text-align: center;
   font-size: 12px;
   line-height: 1.17;
