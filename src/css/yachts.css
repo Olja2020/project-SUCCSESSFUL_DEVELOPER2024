@@ -160,7 +160,8 @@
  }
    .yachts-list:hover {
     background-color: transparent; 
-    margin-left: 33px;
+    margin-left: 24px;
+    margin-right: 24px; 
  }  
 @media (min-width: 768px) {
    
@@ -223,6 +224,11 @@
     letter-spacing: -0.02em;
     max-width: 179px;
   }
+  .yachts-list:hover {
+    background-color: transparent; 
+    margin-left: 45px;
+    margin-right: 45px; 
+ }  
 }
 
 @media (min-width: 1280px) {
@@ -240,6 +246,11 @@
     width: calc((100% - 46px) / 3);
     gap: 23px;
   }
+  .yachts-list:hover {
+    background-color: transparent; 
+    margin-left: 60px;
+    margin-right: 50px; 
+ }  
   
  }
 
@@ -252,4 +263,5 @@
     width: calc((100% - 64px) / 3);
     gap: 32px;
   }
+  
 }
