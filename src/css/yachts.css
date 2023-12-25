@@ -236,6 +236,7 @@
   
  .yachts-list:hover .yachts-description-all {
     display: none;
+    background-color: transparent;
  }
 }
 
