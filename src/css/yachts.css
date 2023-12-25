@@ -230,11 +230,11 @@
   overflow: hidden;
   }
   
- .yachts-picture {
+ .yachts-list:hover .yachts-picture {
    padding: 0;
  }
   
- .yachts-description-all {
+ .yachts-list:hover .yachts-description-all {
     display: none;
  }
 }
