@@ -3,6 +3,14 @@
   margin: 0 auto;
   padding-top: 40px;
   padding-bottom: 40px;
+  
+}
+
+.yachts-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .yachts-section-name {
@@ -35,9 +43,6 @@
 }
 
 .yachts-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   color: var(--graywhite);
   background: var(--dark);
   font-size: 14px;
@@ -45,7 +50,8 @@
   line-height: 1.29;
   letter-spacing: -0.02em;
   padding: 14px 32px;
-  min-width: 141px;
+  width: auto;
+  height: auto;
   height: 46px;
   margin: 0 auto;
   border-radius: 15px;
