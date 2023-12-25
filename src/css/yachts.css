@@ -101,25 +101,22 @@
 
 .yachts-meaning {
   display: flex;
+  justify-content: space-between;
+  width: 96px;
   color: var(--darkgrey);
   font-size: 14px;
   font-weight: 400;
   line-height: 1.18;
-  letter-spacing: 0.03em;
-  align-items: flex-start;
+  letter-spacing: 0.02em;
 }
 
 .yachts-property-div {
-  /* display: flex; */
-  justify-content: space-between;
   padding-top: 16px;
-  gap: 114px;
 }
 
 .yachts-description-list {
   display: flex;
   justify-content: space-between;
-  gap: 114px;
 }
 
 .yachts-description-name {
@@ -172,11 +169,13 @@
  .yachts-list:hover .yachts-description-all {
     display: none;
  }
+
    .yachts-list:hover {
     background-color: transparent; 
     margin-left: 24px;
     margin-right: 24px; 
- }  
+ } 
+  
 @media (min-width: 768px) {
    
   .yachts-section {
@@ -238,6 +237,7 @@
     letter-spacing: -0.02em;
     max-width: 179px;
   }
+
   .yachts-list:hover {
     background-color: transparent; 
     margin-left: 45px;
@@ -260,13 +260,13 @@
     width: calc((100% - 46px) / 3);
     gap: 23px;
   }
+
   .yachts-list:hover {
     background-color: transparent; 
     margin-left: 60px;
     margin-right: 50px; 
- }  
-  
- }
+  }  
+}
 
 @media (min-width: 1440px) {
   .yachts-container {
@@ -277,5 +277,4 @@
     width: calc((100% - 64px) / 3);
     gap: 32px;
   }
-  
 }
