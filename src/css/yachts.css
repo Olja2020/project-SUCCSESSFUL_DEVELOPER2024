@@ -236,8 +236,10 @@
   
  .yachts-list:hover .yachts-description-all {
     display: none;
-    background-color: transparent;
  }
+   .yachts-list:hover .yachts-list {
+    background-color: transparent; 
+ }  
 }
 
 @media (min-width: 1440px) {
